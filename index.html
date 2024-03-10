@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">   
+            <div class="form">
+                <form action="#" class="form-body">
+                    <h3 class="header-bmi">BMI Calculator</h3>
+                    <div id="result">
+                        <!-- nanti jawaban muncul disini -->
+                    </div>
+                    <div class="radio-body">
+                        <p>Pilih jenis kelamin</p>
+                        <input type="radio" id="men" value="pria" name="gender">
+                        <label for="men">Pria</label>
+                        <input type="radio" id="women" value="wanita" name="gender">
+                        <label for="women">Wanita</label>
+                    </div>
+                    <label for="bb">Berat Badan (Kg) </label>
+                    <input id="bb" type="text" name="berat_badan" placeholder="Masukkan berat badan">
+                    <label for="tb">Tinggi Badan (Cm) </label>
+                    <input id="tb" type="text" name="tinggi_badan" placeholder="Masukkan dengan format (cm) Ex. 1.7 meter : 170 cm">
+                    <label for="usia">Usia </label>
+                    <input id="usia" type="text" name="usia" placeholder="Minimal 18 tahun.">
+                    <div class="buttons">
+                        <button type="button" onclick="handleFunction()" class="submit">Submit</button>
+                        <a href="index.html">
+                            <button type="button" onclick="" class="submit">Reset</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="./public/javascript/index.js"></script>
+</body>
+</html>
